@@ -16,8 +16,27 @@
 
     </TextView>
 
+    <EditText
+        android:id="@+id/editTextNickname_edit"
+        style="NameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/what_is_your_nickname"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/layout_padding"
+        android:text="@string/done" />
+
     <ImageView
-        android:id="@+id/imageViewProfilePic"
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:contentDescription="@string/profile_pic"
@@ -33,7 +52,6 @@
             android:orientation="vertical" >
 
             <TextView
-                style="@style/my_text_style"
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
