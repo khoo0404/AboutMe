@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="my_name">Khoo Cheng Quan</string>
+    <string name="profile_Pic">ProfilePic</string>
+    <string name="profile_desc">
+        Education:
+        \n\tSJKC Chong Hwa Ketiga, Muar, Johor\n
+        \n\tSJKC Chong Hwa High School, Muar,Johor\n
+        \n\tTunku Abdul Rahman College\n
+    </string>
+    <string name="profile_pic">Profile_pic</string>
+</resources>
